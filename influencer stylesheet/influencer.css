@@ -1,0 +1,231 @@
+/* uses font-family */
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.item-price{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+body{
+    background-color: rgb(254, 255, 255);
+}
+
+/* Header area */
+.header-element{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+    
+}
+.nav-header{
+    color: rgba(58, 58, 58, 1);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-right: 200px;
+}
+.menu-bar, ul{
+    display: flex;
+    
+}
+.menu-bar, ul, a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    font-weight: 500;
+    color: rgba(58, 58, 58, 1);
+    
+    
+}
+.menu-bar i{
+    margin-left:20px;
+}
+
+/* banner element */
+
+.banner-head{
+    display: flex;
+    margin: 100px 120px 50px 120px;
+}
+.banner-element{
+    margin: 50px 0 50px 0px ;
+
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+.banner-text{
+    font-weight: 500;
+}
+.banner-btn{
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 40px;
+    margin-top: 10px;
+    padding: 15px 20px 15px 15px;
+    border: none;
+    transition: 0.5s  ease-in-out;
+
+}
+.banner-btn:hover{
+    background-color:rgb(115 17 53);
+}
+.banner-btn i{
+    margin-left: 10px;
+    color: white;
+}
+.banner-btn a{
+    color: white;
+    font-weight: 700;
+
+}
+
+.img-banner{
+    background-image: url(../images/Circle\ design.svg);
+    margin-left: 50px;
+
+}
+/* sponser area */
+.img-banner img{
+    width: 475px;
+    height: 469px;
+}
+.banner-logo{
+    margin: 100px 80px 50px 200px;
+    background-color: white;
+    width:1000px;
+    box-shadow:0px 0px 5px 2px rgb(217, 209, 209)    
+}
+.sponser-brand{
+    padding: 20px;
+    gap: 40px;
+    text-align: center;  
+}
+/* main body element */
+.collection-section {
+    margin: 10px 213px 50px 199px;
+}
+.collection-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 100px 0 60px 0;
+}
+.collection-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    
+    gap: 30px;
+}
+.img-item{
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px 10px #dfdcdc;
+    border: none;
+}
+.img-item h4 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 5px 0 0 0;
+    
+}
+.img-item h5{
+    font-size: 1.2rem;
+    margin: 10px 0 10px 0;
+}
+.img-item p{
+    color: rgba(120, 120, 133, 1);
+    margin: 0 0 3px 0;
+}
+.container{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+   
+}
+.btn-item{
+    float: right;
+    border: none;
+    background-color: none;
+    color: rgba(224, 44, 109, 0.87);
+
+}
+.container i{
+    margin-top: 2px;
+    margin-left: 5px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* feature details */
+.feature-join{
+    display: flex;
+    gap: 70px;
+    margin: 94px 143px 71px 134px;
+}
+.feature-heading{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+.feature-details{
+    font-family:"Poppins", serif ;
+    font-weight: 500;
+    color: rgba(108, 108, 108, 1);
+}
+
+/* feature btn  */
+#feature-btn{
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+#feature-btn:hover{
+    background-color: rgb(115 17 53);
+    cursor: pointer;
+}
+.feature-link{
+    color: white;
+    padding-right: 5px;
+    font-weight: 700;
+    font-family: "Poppins", serif ;
+}
+#feature-icon{
+    color: white;
+    margin-right: 5px;
+}
+/* footer area */
+.footer-main{
+    background-color: #0f0649;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.footer-head{
+    font-family: "Poppins", serif ;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+/* Responsive Area */
+
+@media screen and (max-width=576){
+    
+    
+}
