@@ -220,12 +220,16 @@ body{
     font-weight: 700;
     color: white;
 }
+.footer-icon{
+    color: white;
+    padding-right: 10px;
+}
 
 
 
 /* Responsive Area */
 
 @media screen and (max-width=576){
-    
+
     
 }
